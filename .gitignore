@@ -1,5 +1,4 @@
 /.env
-/.github
 /DEPLOYMENT.md
 /dist
 /docker-compose.prod.yml
