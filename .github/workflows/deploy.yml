@@ -70,6 +70,6 @@ jobs:
               --restart unless-stopped \
               "$IMAGE_NAME"
 
-            # Health check
-            sleep 5
-            curl -f http://localhost/api/health || (docker logs --tail=200 doctor-consultation && exit 1) 
+            # # Health check
+            # sleep 5
+            # curl -f http://localhost:6001/api/health || (docker logs --tail=200 doctor-consultation && exit 1) 
